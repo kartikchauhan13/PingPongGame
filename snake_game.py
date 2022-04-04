@@ -12,7 +12,7 @@ if __name__=="__main__":
 	while flag:
 		for event in pygame.event.get():
 			if event.type ==KEYDOWN :
-				if event.type ==K_ESCAPE:
+				if event.key ==K_ESCAPE:
 					flag=False
 			elif event.type==QUIT:
 				flag=False
